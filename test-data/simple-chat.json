@@ -1,0 +1,32 @@
+{
+  "requesterUsername": "testUser",
+  "responderUsername": "GitHub Copilot",
+  "requests": [
+    {
+      "requestId": "request_123",
+      "message": {
+        "text": "How do I write a hello world program?"
+      },
+      "response": [
+        {
+          "value": "Here's a simple hello world program in JavaScript:",
+          "supportThemeIcons": false
+        },
+        {
+          "kind": "toolInvocationSerialized",
+          "toolId": "createFile",
+          "resultDetails": {
+            "input": "console.log('Hello World!')",
+            "output": [
+              {
+                "type": "text",
+                "value": "File created successfully"
+              }
+            ]
+          }
+        }
+      ],
+      "timestamp": 1747440910601
+    }
+  ]
+}
